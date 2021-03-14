@@ -1,4 +1,7 @@
 const config = {
+  MAX_ATTACHMENT_SIZE: 5000000,
+  STRIPE_KEY:
+    "pk_test_51IUYXCEhXDAHv3jqFjZg36p5qFt2vxyYV9S9sceCAhu7ZOWCIm9IZ3HzeVi3I7hZFqPYDgdP5lyAoATWaJadEUgb00NeRHu9QU",
   s3: {
     REGION: "eu-west-2",
     BUCKET: "myfavoritebucket99",

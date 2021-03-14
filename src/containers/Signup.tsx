@@ -14,7 +14,6 @@ export default function Signup() {
     password: "",
     confirmPassword: "",
     confirmationCode: "",
-    mm: "",
   });
   const history = useHistory();
   const [newUser, setNewUser] = useState<Object | null>(null);
